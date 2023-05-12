@@ -1,0 +1,21 @@
+﻿.HomeWork {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: 
+        "header header"
+        "menu page"
+}
+
+
+.header {
+    grid-area: header;
+}
+.menu {
+    grid-area: menu;
+}
+.page {
+    grid-area: page;
+}
